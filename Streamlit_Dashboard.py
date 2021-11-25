@@ -203,5 +203,6 @@ fig.update_layout(
 fig.add_vline(x = '2021-11-05', line_color = 'darkred', line_dash = 'dash')
 
 st.write(fig)
+st.write("Left side of the dash line shows prediction values, right side shows forecast.")
 
 
